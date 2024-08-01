@@ -4,15 +4,18 @@ Deploy EC2 instance using the AWS CDK for Python
 
 ## Setup 
 
-### macOS
+## Setup for macOS
 
-See [How to install the AWS CDK on macOS](https://blog.swiftsoftwaregroup.com/install-aws-cdk-macos/) for CDK installation instructions.
+Make sure you do this setup first:
 
-Also for Python support, install `pyenv`:
+1. [Setup macOS for AWS Cloud DevOps](https://blog.swiftsoftwaregroup.com/setup-macos-for-aws-cloud-devops)
+2. [AWS Authentication](https://blog.swiftsoftwaregroup.com/aws-authentication)
+3. [Install AWS CDK on macOS](https://blog.swiftsoftwaregroup.com/install-aws-cdk-macos)
+4. For Python support, install `pyenv`:
 
-```bash
-brew install pyenv
-```
+    ```bash
+    brew install pyenv
+    ```
 
 ## Development
 
