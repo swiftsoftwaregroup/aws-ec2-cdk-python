@@ -23,7 +23,7 @@ Print the CloudFormation template for the stack. You should see the CloudFormati
 ```bash
 cdk synth --profile default
 ```
-Bootstrap the environment (see https://docs.aws.amazon.com/cdk/latest/guide/bootstrapping.html):
+Bootstrap the CDK environment. This should be done only once per account. Skip this step if you have done it already. See [Bootstrapping](https://docs.aws.amazon.com/cdk/latest/guide/bootstrapping.html) for details:
 
 ```bash
 cdk bootstrap --profile default
