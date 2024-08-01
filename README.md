@@ -8,7 +8,7 @@ Deploy EC2 instance using the AWS CDK for Python
 
 See [How to install the AWS CDK on macOS](https://blog.swiftsoftwaregroup.com/install-aws-cdk-macos/) for CDK installation instructions.
 
-Also install `pyenv`:
+Also for Python support, install `pyenv`:
 
 ```bash
 brew install pyenv
@@ -84,8 +84,8 @@ The bootstrap process creates an S3 Bucket with a name:  `cdk-<hash>-assets-<acc
 nvm use 20.16.0
 
 # Python
-mkdir app
-cd app
+mkdir ec2-aws-cdk-python
+cd ec2-aws-cdk-python
 cdk init app --language python --generate-only
 
 mv README.md README_MDK.md
