@@ -63,6 +63,8 @@ cdk destroy --profile default
 aws cloudformation delete-stack --stack-name CDKToolkit --profile default
 ```
 
+The bootstrap process creates an S3 Bucket with a name:  `cdk-<hash>-assets-<account_id>-<region>`. This bucket will not be deleted automatically and will remain in your account if not deleted manually. 
+
 ## How to create a new project
 
 ```bash
