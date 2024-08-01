@@ -2,5 +2,6 @@
     "recommendations": [
         "ms-python.black-formatter",
         "ms-python.python",
+        "amazonwebservices.aws-toolkit-vscode",
     ]
 }
