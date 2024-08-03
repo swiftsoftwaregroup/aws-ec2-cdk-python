@@ -2,8 +2,6 @@
 
 Deploy EC2 instance using the AWS CDK for Python
 
-## Setup 
-
 ## Setup for macOS
 
 Make sure you do this setup first:
